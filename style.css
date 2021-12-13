@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  background: url("./trees.jpg");
+  background: url("./pawel-czerwinski-ruJm3dBXCqw-unsplash.jpg");
   background-size: cover;
   background-position: 50% 60%;
   background-attachment: fixed;
@@ -50,11 +50,14 @@ ul {
 
 /* Columns */
 .drag-column {
-
   margin: 0 10px;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
   border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   overflow-x: hidden;
 }
 
