@@ -6,10 +6,10 @@ html {
 }
 
 :root {
-  --column-1: #a2622d;
-  --column-2: #1b6161;
-  --column-3: #248224;
-  --column-4: #a22d22;
+  --column-1: #d776c5;
+  --column-2: #9188d9;
+  --column-3: #7eb6d9;
+  --column-4: #aae6f1;
 }
 
 body {
@@ -50,9 +50,10 @@ ul {
 
 /* Columns */
 .drag-column {
+  flex: 1;
   margin: 0 10px;
   position: relative;
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
@@ -136,8 +137,12 @@ ul {
   margin: 10px;
   padding: 10px;
   height: fit-content;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
   border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   line-height: 1.5rem;
   letter-spacing: 1px;
   cursor: pointer;
